@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Alata';
+    background-image: url('sky\ backgroud.jpeg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+}
+
+header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 16px 16px 16px 16px;
+    border-bottom:3px solid rgb(225, 229, 253);
+
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.1s ease-out;
+}
+
+main {
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+    color:azure;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.333);
+}
+
+.location{
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.date{
+    font-size: 60%;
+    margin-bottom: 5%;
+    font-style: italic;
+}
+
+.current .temp{
+    margin-bottom: 5%;
+    font-size: 300%;
+    font-weight: lighter;
+}
+
+.weather{
+    margin-bottom: 5%;
+}
+
+.hi-low{
+    margin-bottom: 5%;
+}
